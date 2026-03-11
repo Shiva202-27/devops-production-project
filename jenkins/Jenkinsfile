@@ -3,7 +3,7 @@ pipeline {
  agent any
 
  environment {
-   DOCKER_IMAGE = "shivdevops/devops-app"
+   DOCKER_IMAGE = "shivk202/devops-app"
  }
 
  stages {

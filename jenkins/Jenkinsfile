@@ -9,10 +9,10 @@ pipeline {
  stages {
 
   stage('Clone Repo') {
-   steps {
-    git 'https://github.com/Shiva202-27/devops-production-project.git'
-   }
-  }
+ steps {
+  git branch: 'main', url: 'https://github.com/Shiva202-27/devops-production-project.git'
+ }
+}
 
   stage('Build Docker Image') {
    steps {
